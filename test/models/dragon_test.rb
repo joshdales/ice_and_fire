@@ -28,7 +28,7 @@ class DragonTest < ActiveSupport::TestCase
 
   def test_that_middle_dragons_from_targ_dynasty
     # use your knowledge of factories to make this test pass!
-    middle_dragon = nil
+    middle_dragon = build(:dragon, age: 150)
 
     # not allowed to change the assert statement!
     skip unless middle_dragon
